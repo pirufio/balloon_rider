@@ -1,0 +1,55 @@
+[gd_scene load_steps=9 format=3 uid="uid://bmr0m2lua5ldy"]
+
+[ext_resource type="Texture2D" uid="uid://cahnq6dforr8x" path="res://sprites/planet_1.png" id="1_83ewn"]
+[ext_resource type="Script" uid="uid://o4sull5cec72" path="res://StarEnemy.cs" id="1_p653r"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p653r"]
+atlas = ExtResource("1_83ewn")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0dkj2"]
+atlas = ExtResource("1_83ewn")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tiha6"]
+atlas = ExtResource("1_83ewn")
+region = Rect2(48, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_12fvp"]
+atlas = ExtResource("1_83ewn")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_0t40i"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p653r")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0dkj2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tiha6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_12fvp")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_3hrex"]
+radius = 6.32456
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+script = ExtResource("1_p653r")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_0t40i")
+frame = 1
+frame_progress = 0.680974
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_3hrex")

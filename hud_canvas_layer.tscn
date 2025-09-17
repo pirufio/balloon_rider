@@ -1,0 +1,31 @@
+[gd_scene load_steps=4 format=3 uid="uid://cjerva1pequfn"]
+
+[ext_resource type="Script" uid="uid://rbhd8glcxstx" path="res://HudCanvasLayer.cs" id="1_5aj0g"]
+
+[sub_resource type="Theme" id="Theme_5aj0g"]
+
+[sub_resource type="Theme" id="Theme_5iisq"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_5aj0g")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="LabelPoints" type="Label" parent="CanvasLayer"]
+offset_right = 40.0
+offset_bottom = 23.0
+theme = SubResource("Theme_5aj0g")
+theme_type_variation = &"HeaderLarge"
+text = "Points:"
+metadata/_edit_use_anchors_ = true
+
+[node name="LabelLives" type="Label" parent="CanvasLayer"]
+offset_left = 515.0
+offset_top = 1.0
+offset_right = 563.0
+offset_bottom = 24.0
+theme = SubResource("Theme_5iisq")
+theme_type_variation = &"HeaderLarge"
+text = "Lives: "
+horizontal_alignment = 1
+metadata/_edit_use_anchors_ = true

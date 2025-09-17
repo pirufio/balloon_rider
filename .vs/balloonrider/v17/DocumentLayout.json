@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\franc\\Documents\\balloonrider\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5F516E86-D39C-46DD-BBC1-071227CC3770}|balloonrider.csproj|c:\\users\\franc\\documents\\balloonrider\\starsmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F516E86-D39C-46DD-BBC1-071227CC3770}|balloonrider.csproj|solutionrelative:starsmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F516E86-D39C-46DD-BBC1-071227CC3770}|balloonrider.csproj|c:\\users\\franc\\documents\\balloonrider\\loselifemessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F516E86-D39C-46DD-BBC1-071227CC3770}|balloonrider.csproj|solutionrelative:loselifemessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F516E86-D39C-46DD-BBC1-071227CC3770}|balloonrider.csproj|c:\\users\\franc\\documents\\balloonrider\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F516E86-D39C-46DD-BBC1-071227CC3770}|balloonrider.csproj|solutionrelative:mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F516E86-D39C-46DD-BBC1-071227CC3770}|balloonrider.csproj|c:\\users\\franc\\documents\\balloonrider\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F516E86-D39C-46DD-BBC1-071227CC3770}|balloonrider.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F516E86-D39C-46DD-BBC1-071227CC3770}|balloonrider.csproj|c:\\users\\franc\\documents\\balloonrider\\fish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F516E86-D39C-46DD-BBC1-071227CC3770}|balloonrider.csproj|solutionrelative:fish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F516E86-D39C-46DD-BBC1-071227CC3770}|balloonrider.csproj|c:\\users\\franc\\documents\\balloonrider\\starenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F516E86-D39C-46DD-BBC1-071227CC3770}|balloonrider.csproj|solutionrelative:starenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\balloonrider\\MainMenu.cs",
+              "RelativeDocumentMoniker": "MainMenu.cs",
+              "ToolTip": "C:\\Users\\franc\\Documents\\balloonrider\\MainMenu.cs",
+              "RelativeToolTip": "MainMenu.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T01:28:21.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoseLifeMessage.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\balloonrider\\LoseLifeMessage.cs",
+              "RelativeDocumentMoniker": "LoseLifeMessage.cs",
+              "ToolTip": "C:\\Users\\franc\\Documents\\balloonrider\\LoseLifeMessage.cs",
+              "RelativeToolTip": "LoseLifeMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T00:11:19.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StarsMap.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\balloonrider\\StarsMap.cs",
+              "RelativeDocumentMoniker": "StarsMap.cs",
+              "ToolTip": "C:\\Users\\franc\\Documents\\balloonrider\\StarsMap.cs",
+              "RelativeToolTip": "StarsMap.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwE4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T22:54:20.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Fish.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\balloonrider\\Fish.cs",
+              "RelativeDocumentMoniker": "Fish.cs",
+              "ToolTip": "C:\\Users\\franc\\Documents\\balloonrider\\Fish.cs",
+              "RelativeToolTip": "Fish.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T03:03:51.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\balloonrider\\Player.cs",
+              "RelativeDocumentMoniker": "Player.cs",
+              "ToolTip": "C:\\Users\\franc\\Documents\\balloonrider\\Player.cs",
+              "RelativeToolTip": "Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T00:39:57.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StarEnemy.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\balloonrider\\StarEnemy.cs",
+              "RelativeDocumentMoniker": "StarEnemy.cs",
+              "ToolTip": "C:\\Users\\franc\\Documents\\balloonrider\\StarEnemy.cs",
+              "RelativeToolTip": "StarEnemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T23:07:46.345Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

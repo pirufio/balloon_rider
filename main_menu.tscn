@@ -1,0 +1,122 @@
+[gd_scene load_steps=6 format=3 uid="uid://dxt8pg5f7kteg"]
+
+[ext_resource type="Script" uid="uid://036mv2ny1omr" path="res://MainMenu.cs" id="1_fu7sn"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_06t4h"]
+bg_color = Color(0, 0, 1, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jix8l"]
+bg_color = Color(0, 0, 1, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(1, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_fu7sn"]
+bg_color = Color(0, 0, 0, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(1, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7vrkn"]
+bg_color = Color(0, 0, 0, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0, 1, 0, 1)
+
+[node name="MainMenu" type="Node2D"]
+script = ExtResource("1_fu7sn")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="ButtonNew" type="Button" parent="CanvasLayer"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -307.0
+offset_top = -122.0
+offset_right = 294.0
+offset_bottom = -55.0
+grow_horizontal = 2
+grow_vertical = 2
+focus_neighbor_bottom = NodePath("../ButtonNewStars")
+focus_next = NodePath("../ButtonNewStars")
+focus_previous = NodePath("../ButtonQuit")
+theme_type_variation = &"FlatButton"
+theme_override_colors/font_hover_pressed_color = Color(0, 1, 0, 1)
+theme_override_colors/font_hover_color = Color(1, 0, 0, 1)
+theme_override_colors/font_color = Color(0, 1, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 1, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 1, 0, 1)
+theme_override_styles/focus = SubResource("StyleBoxFlat_06t4h")
+theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_jix8l")
+theme_override_styles/hover = SubResource("StyleBoxFlat_fu7sn")
+theme_override_styles/normal = SubResource("StyleBoxFlat_7vrkn")
+text = "START NEW GAME"
+
+[node name="ButtonNewStars" type="Button" parent="CanvasLayer"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -307.5
+offset_top = -32.5
+offset_right = 293.5
+offset_bottom = 34.5
+grow_horizontal = 2
+grow_vertical = 2
+focus_neighbor_top = NodePath("../ButtonNew")
+focus_neighbor_bottom = NodePath("../ButtonQuit")
+focus_next = NodePath("../ButtonQuit")
+focus_previous = NodePath("../ButtonNew")
+theme_type_variation = &"FlatButton"
+theme_override_colors/font_hover_pressed_color = Color(0, 1, 0, 1)
+theme_override_colors/font_hover_color = Color(1, 0, 0, 1)
+theme_override_colors/font_color = Color(0, 1, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 1, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 1, 0, 1)
+theme_override_styles/focus = SubResource("StyleBoxFlat_06t4h")
+theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_jix8l")
+theme_override_styles/hover = SubResource("StyleBoxFlat_fu7sn")
+theme_override_styles/normal = SubResource("StyleBoxFlat_7vrkn")
+text = "START NEW GAME STARS"
+
+[node name="ButtonQuit" type="Button" parent="CanvasLayer"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -307.0
+offset_top = 56.0
+offset_right = 293.0
+offset_bottom = 123.0
+grow_horizontal = 2
+grow_vertical = 2
+focus_neighbor_top = NodePath("../ButtonNewStars")
+focus_next = NodePath("../ButtonNew")
+focus_previous = NodePath("../ButtonNewStars")
+theme_type_variation = &"FlatButton"
+theme_override_colors/font_hover_pressed_color = Color(0, 1, 0, 1)
+theme_override_colors/font_hover_color = Color(1, 0, 0, 1)
+theme_override_colors/font_color = Color(0, 1, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 1, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 1, 0, 1)
+theme_override_styles/focus = SubResource("StyleBoxFlat_06t4h")
+theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_jix8l")
+theme_override_styles/hover = SubResource("StyleBoxFlat_fu7sn")
+theme_override_styles/normal = SubResource("StyleBoxFlat_7vrkn")
+text = "QUIT"

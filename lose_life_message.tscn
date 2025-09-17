@@ -1,0 +1,53 @@
+[gd_scene load_steps=2 format=3 uid="uid://cw75swurwieju"]
+
+[ext_resource type="Script" uid="uid://ccmu01sftfy1" path="res://LoseLifeMessage.cs" id="1_oekfs"]
+
+[node name="LoseLifeMessage" type="CanvasLayer"]
+process_mode = 3
+script = ExtResource("1_oekfs")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+process_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.0687983, 0.0687983, 0.0687983, 0.501961)
+
+[node name="MessageLabel" type="Label" parent="ColorRect"]
+process_mode = 3
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -68.0
+offset_top = -17.5
+offset_right = 68.0
+offset_bottom = 17.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 1, 0, 1)
+theme_override_font_sizes/font_size = 25
+text = "Get Ready"
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+
+[node name="ContinueButton" type="Button" parent="ColorRect"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -41.0
+offset_top = 37.0
+offset_right = 38.0
+offset_bottom = 68.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.0705882, 0.678431, 0.0705882, 1)
+text = "Continue"
